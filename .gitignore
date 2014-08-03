@@ -1,5 +1,4 @@
-*FaceDetectionCamera/images
-/FaceCameraDetection/DetectFace/build/
-/FaceCameraDetection/DetectFace/dist/
+*.png
+.DS_Store
 /Camera2Face/build/
 /Camera2Face/dist/
