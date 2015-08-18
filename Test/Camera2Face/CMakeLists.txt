@@ -6,3 +6,6 @@ INCLUDE_DIRECTORIES("/usr/include/flycapture")
 find_package(OpenCV REQUIRED)
 add_executable(Camera2Face main.cpp)
 target_link_libraries(Camera2Face ${OpenCV_LIBS} flycapture)
+
+project(Sleepy)
+add_executable(Sleepy sleepy.cpp)

@@ -28,6 +28,10 @@
 # -lopencv_videostab
 #------------------------------------------------------------------#
 
-g++ `pkg-config --libs --cflags opencv` main.cpp -o detect_face  
+LIB_STRING=`pkg-config --libs --cflags opencv`
+
+echo $LIB_STRING
+
+g++ -Wall `pkg-config --libs --cflags opencv` main.cpp -o detect_face  
 
 #------------------------------------------------------------------#

@@ -22,11 +22,10 @@ using namespace cv;
 // Function Headers
 void FindFace2Frame(Mat frame);
 
-/*----------------------------------------------
-------------------------------
+/*----------------------------------------------------------------------------
                             Global Variables
  ----------------------------------------------------------------------------*/
-//unsigned int go_sleep = 10 * 100000;
+unsigned int go_sleep = 10 * 100000;
 string face_cascade_name = "haarcascade_frontalface_alt.xml";
 CascadeClassifier face_cascade_classifier;
 
@@ -117,7 +116,7 @@ int main(void) {
       	break;
       }
       
-      int c = waitKey(5);
+      int c = waitKey(10);
       
       // Press Escape to exit application
       if (27 == char(c)) {

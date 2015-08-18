@@ -38,12 +38,12 @@
       <compileType>
         <ccTool>
           <incDir>
-            <pElem>/opt/local/include/opencv2</pElem>
-            <pElem>/opt/local/include</pElem>
-            <pElem>/opt/local/lib</pElem>
+            <pElem>/usr/local/include/opencv2</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>/usr/local/lib</pElem>
           </incDir>
           <incFile>
-            <pElem>/opt/local/include/opencv2/opencv.hpp</pElem>
+            <pElem>/usr/local/include/opencv2/opencv.hpp</pElem>
           </incFile>
         </ccTool>
       </compileType>
